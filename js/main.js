@@ -1,3 +1,5 @@
-import KanbanAPI from "./api/KanbanAPI.js";
+import Kanban from "./view/Kanban.js";
 
-KanbanAPI.deleteItem(41676);
+new Kanban(
+    document.querySelector(".kanban")
+);
